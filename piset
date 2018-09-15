@@ -12,16 +12,18 @@ sudo apt-get install python-serial
 
 sudo apt-get install gawk
 
-grep
-gettext
-automake
-texinfo
-help2man
-libtool
-libtool-bin
-python-dev
-python-pip
-gawk
+sudo apt-get install grep
+sudo apt-get install gettext
+sudo apt-get install automake
+sudo apt-get install texinfo
+sudo apt-get install help2man
+sudo apt-get install libtool
+sudo apt-get install libtool-bin
+sudo apt-get install python-dev
+sudo apt-get install python-pip
+
+check pwd is home/pi
+do not do any of the following as sudo
 
 mkdir esp
 cd ~/esp
@@ -38,6 +40,4 @@ sudo nano ./.config
 -- > Find CT_PARALLEL_JOBS=0 and change 0 to 1
 
 ./ct-ng build build.1
-[ERROR]  You must NOT be root to run crosstool-NG
-[00:00] / ct-ng:152: recipe for target 'build' failed
-make: *** [build] Error 1
+
