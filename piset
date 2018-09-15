@@ -1,0 +1,43 @@
+sudo apt-get update
+
+sudo apt-get install git
+sudo apt-get install wget
+sudo apt-get install make
+sudo apt-get install libncurses-dev
+sudo apt-get install flex
+sudo apt-get install bison
+sudo apt-get install gperf
+sudo apt-get install python
+sudo apt-get install python-serial
+
+sudo apt-get install gawk
+
+grep
+gettext
+automake
+texinfo
+help2man
+libtool
+libtool-bin
+python-dev
+python-pip
+gawk
+
+mkdir esp
+cd ~/esp
+git clone -b xtensa-1.22.x https://github.com/espressif/crosstool-NG.git
+cd crosstool-NG/
+./bootstrap
+./configure --enable-local
+make install
+
+
+./ct-ng xtensa-esp32-elf
+
+sudo nano ./.config
+-- > Find CT_PARALLEL_JOBS=0 and change 0 to 1
+
+./ct-ng build build.1
+[ERROR]  You must NOT be root to run crosstool-NG
+[00:00] / ct-ng:152: recipe for target 'build' failed
+make: *** [build] Error 1
