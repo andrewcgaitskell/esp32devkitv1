@@ -48,3 +48,21 @@ http://iot-bits.com/esp32/getting-started-with-esp32-esp-idf-part-2/
 
 see separate file for output during tool generation
 
+generates toolchain into
+
+/home/pi/esp/crosstool-NG/builds/xtensa-esp32-elf
+
+cp -a ~/esp/crosstool-NG/builds/xtensa-esp32-elf/. ~/esp/xtensa-esp32-elf
+chmod -R u+w ~/esp/xtensa-esp32-elf
+
+
+https://docs.espressif.com/projects/esp-idf/en/latest/get-started/linux-setup.html#setup-linux-toolchain-add-it-to-path
+
+
+cd ~/esp
+
+https://docs.espressif.com/projects/esp-idf/en/latest/get-started/add-idf_path-to-profile.html#add-idf-path-to-profile-linux-macos
+
+https://docs.espressif.com/projects/esp-idf/en/latest/get-started/index.html#get-started-start-project
+
+
