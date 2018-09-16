@@ -1,0 +1,108 @@
+
+pi@raspberrypi:~/esp/crosstool-NG $ sudo nano ./.config
+pi@raspberrypi:~/esp/crosstool-NG $ ./ct-ng build build.1
+[INFO ]  Performing some trivial sanity checks
+[INFO ]  Build started 20180915.171200
+[INFO ]  Building environment variables
+[INFO ]  =================================================================
+[INFO ]  Retrieving needed toolchain components' tarballs
+[INFO ]  Retrieving needed toolchain components' tarballs: done in 125.08s (at 02:11)
+[INFO ]  =================================================================
+[INFO ]  Extracting and patching toolchain components
+[INFO ]  Extracting and patching toolchain components: done in 288.52s (at 07:00)
+[INFO ]  =================================================================
+[INFO ]  Installing ncurses for build
+[INFO ]  Installing ncurses for build: done in 317.98s (at 12:18)
+[INFO ]  =================================================================
+[INFO ]  Installing GMP for host
+[INFO ]  Installing GMP for host: done in 341.49s (at 18:00)
+[INFO ]  =================================================================
+[INFO ]  Installing MPFR for host
+[INFO ]  Installing MPFR for host: done in 310.73s (at 23:11)
+[INFO ]  =================================================================
+[INFO ]  Installing ISL for host
+[INFO ]  Installing ISL for host: done in 321.80s (at 28:33)
+[INFO ]  =================================================================
+[INFO ]  Installing MPC for host
+[INFO ]  Installing MPC for host: done in 128.92s (at 30:41)
+[INFO ]  =================================================================
+[INFO ]  Installing expat for host
+[INFO ]  Installing expat for host: done in 42.75s (at 31:24)
+[INFO ]  =================================================================
+[INFO ]  Installing binutils for host
+[INFO ]  Installing binutils for host: done in 679.56s (at 42:44)
+[INFO ]  =================================================================
+[INFO ]  Installing C library headers & start files
+[INFO ]  Installing C library headers & start files: done in 0.16s (at 42:44)
+[INFO ]  =================================================================
+[INFO ]  Installing pass-2 core C gcc compiler
+[INFO ]  Installing pass-2 core C gcc compiler: done in 4555.33s (at 118:39)
+[INFO ]  =================================================================
+[INFO ]  Installing C library
+[INFO ]  Installing C library: done in 437.77s (at 125:57)
+[INFO ]  =================================================================
+[INFO ]  Installing final gcc compiler
+[INFO ]  Installing final gcc compiler: done in 5675.37s (at 220:33)
+[INFO ]  =================================================================
+[INFO ]  Installing cross-gdb
+[INFO ]  Installing cross-gdb: done in 1409.47s (at 244:02)
+[INFO ]  =================================================================
+[INFO ]  Cleaning-up the toolchain's directory
+[INFO ]    Stripping all toolchain executables
+[INFO ]  Cleaning-up the toolchain's directory: done in 13.20s (at 244:15)
+[INFO ]  Build completed at 20180915.211614
+[INFO ]  (elapsed: 244:14.53)
+[INFO ]  Finishing installation (may take a few seconds)...
+[INFO ]  Performing some trivial sanity checks
+[INFO ]  Build started 20180915.211648
+[INFO ]  Building environment variables
+[INFO ]  =================================================================
+[INFO ]  Retrieving needed toolchain components' tarballs
+[INFO ]  Retrieving needed toolchain components' tarballs: done in 0.20s (at 00:09)
+[INFO ]  =================================================================
+[INFO ]  Extracting and patching toolchain components
+[INFO ]  Extracting and patching toolchain components: done in 1.47s (at 00:11)
+[INFO ]  =================================================================
+[INFO ]  Installing ncurses for build
+[INFO ]  Installing ncurses for build: done in 315.10s (at 05:26)
+[INFO ]  =================================================================
+[INFO ]  Installing GMP for host
+[INFO ]  Installing GMP for host: done in 341.40s (at 11:08)
+[INFO ]  =================================================================
+[INFO ]  Installing MPFR for host
+[INFO ]  Installing MPFR for host: done in 310.89s (at 16:18)
+[INFO ]  =================================================================
+[INFO ]  Installing ISL for host
+[INFO ]  Installing ISL for host: done in 321.84s (at 21:40)
+[INFO ]  =================================================================
+[INFO ]  Installing MPC for host
+[INFO ]  Installing MPC for host: done in 127.33s (at 23:48)
+[INFO ]  =================================================================
+[INFO ]  Installing expat for host
+[INFO ]  Installing expat for host: done in 42.59s (at 24:30)
+[INFO ]  =================================================================
+[INFO ]  Installing binutils for host
+[INFO ]  Installing binutils for host: done in 686.90s (at 35:57)
+[INFO ]  =================================================================
+[INFO ]  Installing C library headers & start files
+[INFO ]  Installing C library headers & start files: done in 0.26s (at 35:58)
+[INFO ]  =================================================================
+[INFO ]  Installing pass-2 core C gcc compiler
+[INFO ]  Installing pass-2 core C gcc compiler: done in 4547.33s (at 111:45)
+[INFO ]  =================================================================
+[INFO ]  Installing C library
+[INFO ]  Installing C library: done in 434.70s (at 119:00)
+[INFO ]  =================================================================
+[INFO ]  Installing final gcc compiler
+[INFO ]  Installing final gcc compiler: done in 5675.87s (at 213:36)
+[INFO ]  =================================================================
+[INFO ]  Installing cross-gdb
+[INFO ]  Installing cross-gdb: done in 1407.49s (at 237:03)
+[INFO ]  =================================================================
+[INFO ]  Cleaning-up the toolchain's directory
+[INFO ]    Stripping all toolchain executables
+[INFO ]  Cleaning-up the toolchain's directory: done in 13.36s (at 237:17)
+[INFO ]  Build completed at 20180916.011405
+[INFO ]  (elapsed: 237:16.25)
+[INFO ]  Finishing installation (may take a few seconds)...
+[237:17] / pi@raspberrypi:~/esp/crosstool-NG $ 
