@@ -76,5 +76,7 @@ changed name to eps32pi
 updated/upgraded pi
 https://github.com/espressif/esp-idf/tree/1cffc90/examples/system/ota
 https://www.raspberrypi.org/documentation/remote-access/web-server/apache.md
-
+cd ~/esp
+cd esp-idf
+sudo git pull origin master
 
