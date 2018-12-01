@@ -65,4 +65,16 @@ https://docs.espressif.com/projects/esp-idf/en/latest/get-started/add-idf_path-t
 
 https://docs.espressif.com/projects/esp-idf/en/latest/get-started/index.html#get-started-start-project
 
+Over The Air Programming (OTA)
+
+now looking at over the air programming from pi
+as i will have > 15 in house - be good to update them remotely
+
+=== Saturday 1 Dec 2018 - 1307
+
+changed name to eps32pi
+updated/upgraded pi
+https://github.com/espressif/esp-idf/tree/1cffc90/examples/system/ota
+https://www.raspberrypi.org/documentation/remote-access/web-server/apache.md
+
 
