@@ -80,3 +80,34 @@ cd ~/esp
 cd esp-idf
 sudo git pull origin master
 
+https://www.raspberrypi.org/documentation/remote-access/web-server/apache.md
+sudo apt-get install apache2 -y
+
+cd $IDF_PATH/examples/get-started/hello_world
+make
+--- the menu appeared
+--- failed to build due to python dependencies
+sudo apt-get install build-essential libssl-dev libffi-dev python3-dev
+python is 2.7.3
+maybe I should run the following:
+sudo apt-get install build-essential libssl-dev libffi-dev python-dev
+
+sudo /usr/bin/python -m pip install --user -r /home/pi/esp/esp-idf/requirements.txt
+cryptography failed to install
+https://cryptography.io/en/latest/installation/
+sudo apt-get install build-essential libssl-dev libffi-dev python3-dev
+XXX sudo /usr/bin/python -m pip install --user -r /home/pi/esp/esp-idf/requirements.txt
+crptography takes a while to install
+
+cd /home/pi/esp/esp-idf
+sudo git submodule update --init --recursive
+
+XXX should not have used sudo above as cannot sudo make
+
+python -m pip install --user -r $IDF_PATH/requirements.txt
+
+
+cd build
+
+
+
