@@ -83,6 +83,9 @@ sudo git pull origin master
 https://www.raspberrypi.org/documentation/remote-access/web-server/apache.md
 sudo apt-get install apache2 -y
 
+---- rewind to here -----
+https://variax.wordpress.com/2017/03/18/adding-https-to-the-raspberry-pi-apache-web-server/comment-page-1/
+
 cd $IDF_PATH/examples/get-started/hello_world
 make
 --- the menu appeared
